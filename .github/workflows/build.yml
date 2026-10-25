@@ -37,7 +37,7 @@ jobs:
         run: |
           rm -rf buildsrc
           mkdir buildsrc
-          unzip -q HandLauncher-source-fix1.zip -d buildsrc
+          unzip -q HandLauncher-source-fix2.zip -d buildsrc
           test -f buildsrc/HandLauncher/settings.gradle.kts
 
       - name: Run unit tests
