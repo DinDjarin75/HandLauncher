@@ -57,7 +57,7 @@ jobs:
         run: |
           rm -rf buildsrc
           mkdir buildsrc
-          unzip -q BOALLauncher-source-1.0.0-rc4.zip -d buildsrc
+          unzip -q BOAL-Launcher-1.0.0.zip -d buildsrc
           test -f buildsrc/HandLauncher/settings.gradle.kts
 
       - name: Run unit tests
